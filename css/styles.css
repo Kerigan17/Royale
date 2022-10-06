@@ -47,6 +47,12 @@ nav {
 
 #product {
     display: flex;
+    transition: 0.5s;
+}
+
+#product:hover {
+    transition: 0.5s;
+    opacity: 0.5;
 }
 
 #menu-item ul {
@@ -70,6 +76,7 @@ nav {
 #menu-item li:hover {
     transition: 1s;
     transform: scale(1.2);
+    border-bottom: 1px solid black;
 }
 
 #menu-item {
@@ -141,6 +148,7 @@ h1 {
 #select-korm button:hover {
     transform: scale(1.1);
     transition: 1s;
+    box-shadow: 0 0 10px 1px black;
 }
 
 #otzivi {
@@ -152,15 +160,22 @@ h1 {
 #otzivi-play {
     width: 80px;
     height: 80px;
+    transition: 1s;
+    border-radius: 50%;
+    background: #8e000e;
+}
+
+#knopka-otziv a {
     position: relative;
     top: 40px;
     left: 70px;
-    transition: 1s;
+    height: 80px;
 }
 
 #otzivi-play:hover {
     transition: 1s;
     transform: scale(1.2) rotate(360deg);
+    box-shadow: 0 0 10px 1px black;
 }
 
 #otzivi-arrow {
