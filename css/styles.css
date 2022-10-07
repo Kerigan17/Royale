@@ -116,6 +116,7 @@ nav {
 
 #header {
     justify-content: space-between;
+    padding-bottom: 90px;
 }
 
 h1 {
@@ -202,6 +203,55 @@ h1 {
     box-shadow: 54px 54px 40px rgba(0, 0, 0, 0.18);
 }
 
+
+#korm {
+    background: rgba(212, 219, 219, 0.35);
+    padding: 80px 0 125px 0;
+}
+
+#korm-nav {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#korm-nav a {
+    margin: 9px;
+}
+
+#korm-nav h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    color: #1F1F1F;
+}
+
+#korms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.korms-item {
+    width: 384px;
+    height: 484px;
+    background: white;
+}
+
+.korms-item-img {
+    margin: 30px;
+}
+
+.korms-item-info {
+    margin: 6px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.korms-item-info h3 {
+    margin-bottom: 15px;
+}
 
 
 
