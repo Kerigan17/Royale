@@ -243,7 +243,7 @@ h1 {
 }
 
 .korms-item {
-    width: 384px;
+    width: 30%;
     height: 484px;
     background: white;
     opacity: 0.8;
@@ -277,7 +277,3 @@ h1 {
 .korms-item-info h3 {
     margin-bottom: 15px;
 }
-
-
-
-
