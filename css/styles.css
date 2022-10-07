@@ -228,6 +228,15 @@ h1 {
     color: #1F1F1F;
 }
 
+#nav-arrows img {
+    transition: 0.5s;
+}
+
+#nav-arrows img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 #korms {
     display: flex;
     justify-content: space-between;
@@ -237,6 +246,22 @@ h1 {
     width: 384px;
     height: 484px;
     background: white;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.korms-item a {
+    transition: 0.5s;
+}
+
+.korms-item a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.korms-item:hover {
+    opacity: 1;
+    transition: 0.5s;
 }
 
 .korms-item-img {
