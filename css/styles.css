@@ -23,6 +23,7 @@ nav {
     display: flex;
     height: 30px;
     justify-content: space-between;
+    margin: 0 20px;
 }
 
 #logo {
@@ -106,6 +107,7 @@ nav {
 #header {
     padding-top: 90px;
     display: flex;
+    margin: 0 20px;
 }
 
 #select-korm {
