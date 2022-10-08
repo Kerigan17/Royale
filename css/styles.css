@@ -22,6 +22,7 @@ header {
 nav {
     display: flex;
     height: 30px;
+    justify-content: space-between;
 }
 
 #logo {
@@ -79,9 +80,6 @@ nav {
     border-bottom: 1px solid black;
 }
 
-#menu-item {
-    margin: 0 290px 0 225px;
-}
 
 #busket-img {
     width: 20px;
@@ -278,4 +276,7 @@ h1 {
 .korms-item-info h3 {
     margin-bottom: 15px;
 }
+
+
+
 
