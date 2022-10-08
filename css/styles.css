@@ -11,8 +11,9 @@ html {
     }
 
 .container {
-    max-width: 1200px;
+    max-width: 1160px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 header {
@@ -23,7 +24,6 @@ nav {
     display: flex;
     height: 30px;
     justify-content: space-between;
-    margin: 0 20px;
 }
 
 #logo {
@@ -107,7 +107,6 @@ nav {
 #header {
     padding-top: 90px;
     display: flex;
-    margin: 0 20px;
 }
 
 #select-korm {
