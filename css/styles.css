@@ -280,15 +280,16 @@ h1 {
 
 #zakaz {
     padding: 110px 0;
-    justify-content: space-between;
-
+    text-align: center;
 }
 
 .zakaz-info, .zakaz-select, .zakaz-image {
     display: inline-block;
 }
 .zakaz-info {
+    width: 30%;
     vertical-align: top;
+    text-align: left;
 }
 
 .zakaz-title {
@@ -306,11 +307,11 @@ h1 {
     font-size: 18px;
     line-height: 140%;
     color: #444444;
-    max-width: 352px;
+    max-width: 100%;
 }
 
 .zakaz-select {
-    max-width: 320px;
+    width: 30%;
     margin: 0 1%;
     vertical-align: top;
 }
@@ -349,8 +350,8 @@ h1 {
 
 .zakaz-image {
     background: url("../images/kiten.png");
-    width: 384px;
-    height: 321px;
+    width: 30%;
+    height: 300px;
     background-size: cover;
     border-radius: 200px;
     box-shadow: 40px 40px 60px #b2b2b2;
