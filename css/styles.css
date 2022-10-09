@@ -359,8 +359,8 @@ h1 {
 
 #footer {
     padding: 34px 0 42px 0;
-    text-align: center;
     background: #f0f3f3;
+    justify-content: space-between;
 }
 
 .footer-text {
@@ -378,8 +378,9 @@ h1 {
     display: inline-block;
 }
 
-.footer-image {
-    margin: 0 270px;
+#footer > .container > div {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-connection-text {
