@@ -278,6 +278,126 @@ h1 {
     margin-bottom: 15px;
 }
 
+#zakaz {
+    padding: 110px 0;
+    justify-content: space-between;
 
+}
 
+.zakaz-info, .zakaz-select, .zakaz-image {
+    display: inline-block;
+}
+.zakaz-info {
+    vertical-align: top;
+}
 
+.zakaz-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    color: #1F1F1F;
+}
+
+.zakaz-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    color: #444444;
+    max-width: 352px;
+}
+
+.zakaz-select {
+    max-width: 320px;
+    margin: 0 3%;
+    vertical-align: top;
+}
+
+.zakaz-select-input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #9D9D9D;
+    padding: 22px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: black;
+}
+
+.zakaz-select-input::placeholder {
+    color: #a2a2a2;
+}
+
+.zakaz-select-button {
+    background-color: #d00015;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+}
+
+.zakaz-select-button:hover {
+    transform: scale(1.05);
+    transition: 1s;
+    box-shadow: 0 0 10px 1px black;
+}
+
+.zakaz-image {
+    background: url("../images/kiten.png");
+    width: 384px;
+    height: 321px;
+    background-size: cover;
+    border-radius: 200px;
+    box-shadow: 40px 40px 60px #b2b2b2;
+}
+
+#footer {
+    padding: 34px 0 42px 0;
+    text-align: center;
+    background: #f0f3f3;
+}
+
+.footer-text {
+    display: inline-block;
+    max-width: 188px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2.2;
+    color: #444444;
+    text-align: left;
+}
+
+.footer-connection {
+    display: inline-block;
+}
+
+.footer-image {
+    margin: 0 325px;
+}
+
+.footer-connection-text {
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #444444;
+    text-align: left;
+}
+
+.footer-connection-phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1F1F1F;
+}
+
+.footer-connection-phone {
+    text-decoration: none;
+}
