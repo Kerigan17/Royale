@@ -312,7 +312,6 @@ h1 {
 
 .zakaz-select {
     width: 30%;
-    margin: 0 1%;
     vertical-align: top;
 }
 
@@ -378,7 +377,7 @@ h1 {
     display: inline-block;
 }
 
-#footer > .container > div {
+.flex-block {
     display: flex;
     justify-content: space-between;
 }
