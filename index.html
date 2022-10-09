@@ -8,7 +8,6 @@
 </head>
 <body>
 
-
 <header>
     <div class="container">
         <nav>
@@ -31,7 +30,6 @@
                     <img id="busket-img" src="images/icon_busket.png" alt="Корзина">
                     <p>(0)</p>
                 </a>
-
             </div>
         </nav>
 
@@ -58,7 +56,7 @@
 </header>
 
 <main>
-    <div id="korm">
+    <section id="korm">
         <div class="container">
             <div id="korm-nav">
                 <h2>Выберите корм</h2>
@@ -108,10 +106,45 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container">
+
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section id="zakaz">
+        <div class="container">
+            <div class="zakaz-info">
+                <h2 class="zakaz-title">Закажите корм</h2>
+                <p class="zakaz-text">Выберите подходящий корм, заполните данные и наш менеджер свяжется с вами для уточнения деталей </p>
+            </div>
+            <form action="https://webhook.site/0b2777ac-467e-4949-a473-431662815513" class="zakaz-select" name="zakaz">
+                <select name="select-korm" class="zakaz-select-input" required>
+                    <option value="Не выбран">Выбрать корм</option>
+                    <option value="Индейкка/гранат">Индейкка/гранат</option>
+                    <option value="Ягненок/черника">Ягненок/черника</option>
+                    <option value="Индейка/лосось">Индейка/лосось</option>
+                </select>
+                <input type="text" name="name" class="zakaz-select-input" placeholder="Ваше имя" required>
+                <input type="text" name="phone" class="zakaz-select-input" placeholder="Ваш телефон" required>
+                <button type="submit" class="zakaz-select-input zakaz-select-button">Выбрать рацион</button>
+            </form>
+            <div class="zakaz-image"></div>
+        </div>
+    </section>
 </main>
 
+<footer id="footer">
+    <div class="container">
+        <p class="footer-text">ИП Вороновский И.С. <br>  Все права защищены, 2022</p>
+        <img class="footer-image" src="images/RoyalCanin.png" alt="Лого">
+        <div class="footer-connection">
+            <p class="footer-connection-text">Мы на связи с вами</p>
+            <a class="footer-connection-phone" href="tel: +7 (977) 443 73 83">+7 (977) 443 73 83</a>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
