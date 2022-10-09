@@ -297,6 +297,7 @@ h1 {
     font-size: 40px;
     line-height: 120%;
     color: #1F1F1F;
+    margin-bottom: 30px;
 }
 
 .zakaz-text {
@@ -377,7 +378,7 @@ h1 {
 }
 
 .footer-image {
-    margin: 0 300px;
+    margin: 0 270px;
 }
 
 .footer-connection-text {
